@@ -1,0 +1,67 @@
+.knopka {
+    background-color: #4CAF50;
+    color: #c7ffbb;
+    text-shadow: #000000;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    list-style: none;
+    text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    outline: none; 
+    width: 650px;   
+}
+.mem {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);    
+}
+.kartinka {
+    display: none;
+    
+    text-align: center;
+    background-color: #3e8e41;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+   
+}
+.kartinka a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; 
+}
+.kartinka a:hover {
+    background-color: #3e8e41;
+    
+}
+.mem:hover .kartinka {
+    display: block; 
+      
+}
+.mem:hover .knopka {
+    background-color: #3e8e41;
+    
+}
+body {
+    background-color: #439e37;
+}
+p {
+    display: flex;
+    justify-content: center;
+    font: Arial;
+    font-weight: bold;
+    font-size: 40px;
+    vertical-align: middle;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    color: #c7ffbb;
+    text-shadow: #000000;
+}
